@@ -2,9 +2,17 @@
 
 **Overview:**
 
-In this project, I analyze NFL defensive line contracts to identify market inefficiencies and evaluate whether players are overpaid or underpaid relative to their on-field performance. Using player production metrics, situational impact data, and contract values, I built a performance-based valuation model that estimates the annual value (APY) each defensive lineman is producing, regardless of age. This estimated value is then compared with the player’s actual contract to determine contract efficiency.
+In this project, I analyse NFL defensive line contracts to identify market inefficiencies and evaluate whether players are overpaid or underpaid relative to their on-field performance. Using player production metrics, situational impact data, and contract values, I built a performance-based valuation model that estimates the annual value (APY) each defensive lineman is producing, regardless of age. This estimated value is then compared with the player’s actual contract to determine contract efficiency.
 The analysis focuses on two primary defensive line positions: 1.) EDGE defenders 2.) Interior defensive linemen (IDL) 
-  - Each postion has their own seperate graphing and scoring system 
+  - Each position has its own separate graphing and scoring system
+
+## Project Preview
+
+Example visualisations from the contract valuation model:
+
+![Moneyball Graph](outputs/Edge_MoneyBall_fig.png)
+
+![Interior Weighted Contract Efficiency](outputs/Interior_Weighted_Contracts.png)
 
 **KEY GOALS:**
 Create a tiering system 0-5 (0: Elite, 1: Very good, ...) where I cluster players together based on their performance scores.
@@ -17,7 +25,7 @@ The project builds a performance-driven contract valuation model using a multi-s
 Each player is assigned a Final Aggregate Score representing their overall impact in the past 3 years (2022,2023,2024). With recent years being valued more.
 This score combines multiple performance metrics such as:
 - Pass rush production
-- Run defense production
+- Run defence production
 - Situational performance (3rd/4th down impact)
 - Play-by-play efficiency based on snap totals
 - Turnover production
@@ -29,33 +37,33 @@ The goal of the aggregate score is to provide a single holistic measure of defen
   6*["PR_per100"] + 3*["RunD_per100"]+ 3*["Turnover_score"] + 2*["Efficency_score"] -2*["penalty_score"]+ 4*["Situational_score"])
 While for interior linemen, RunD is more valuable: 
   3*["PR_per100"] + 7*["RunD_per100"]+ 2*["Turnover_score"] + 2*["Efficency_score"]-2*["penalty_score"]+ 4*["Situational_score"]
-Now the calculations for ex. of PR_per100 take into account the number of sacks, QB hits, and passes defended a player has with applied weighting for each stat.
+Now the calculations for ex. of PR_per100 take into account the number of sacks, QB hits, and passes defended a player has, with applied weighting for each stat.
 These calculations are done accordingly for the other metrics using different stats and different weightings.
-At the end of each season a player receives a season score, then finally scores from all 3 seasons are aggregated with recent years being valued more.
+At the end of each season, a player receives a season score, and then finally scores from all 3 seasons are aggregated with recent years being valued more.
 
 3.** Situational Impact**
-Situational performance was analyzed to evaluate how players perform in high-leverage downs.
-These situations often determine whether a defense gets off the field, making them particularly valuable for pass rushers.
+Situational performance was analysed to evaluate how players perform in high-leverage downs.
+These situations often determine whether a defence gets off the field, making them particularly valuable for pass rushers.
 Inside my Situation performance metric, not only do I calculate 3rd/4th down impact, but it also takes into account how many of a player's sacks are on 3rd and long. Getting sacks on 3rd and long is crucial; however, if most of your sacks come on obvious passing downs with time, then I don't find that to be a positive metric.
 
 4. **Contract Estimation**
-Players APY estimation was based on 4 important factors:
-1. Your Tier class (based on final aggergate scoring)
+Players' APY estimation was based on 4 important factors:
+1. Your Tier class (based on final aggregate scoring)
 2. Your Role designation
 3. The approximate market midpoint APY of players in each tier
 4. Then their Performance Z-Score relative to their tier
-Based on those factors we are able to caluclate the estimated APY for each player then assign OverPaid,UnderPaid, and FairlyPaid tags for each player based on if their real contract was off by 5 Million.
+Based on those factors, we are able to calculate the estimated APY for each player, then assign OverPaid, UnderPaid, and FairlyPaid tags for each player based on whether their real contract was off by $5 million.
 
 5.) **Contract Analysis **
-When graphing my finding I used different metrics to analyze the values of each players contract.
-A.) Value Ratio = Estimated APY / Actual APY # Seperate Graphs Including and Excluding Rookie and Min. Salary Contracts
+When graphing my findings, I used different metrics to analyse the values of each player's contract.
+A.) Value Ratio = Estimated APY / Actual APY # Separate Graphs Including and Excluding Rookie and Min. Salary Contracts
 B.) Weighted Value Ratio = [(Estimated APY - Actual APY) / Sqrt(APY)] * (Final Agg Score / Avg Final Agg Score)
 
 6. **Visual Analysis**
-Taking into account the results I procceed to visualize my finding in different key graphics.
-  A.) Pass Defense Score vs Run Defense Score
+Taking into account the results, I proceed to visualise my findings in different key graphics.
+  A.) Pass Defence Score vs Run Defence Score
   B.) Situational Impact vs Overall Final Agg Score (Clutch Metric)
-  C.) Scatter Plot of Estimated APY vs Actual APY : Indicating Market Efficiency 
+  C.) Scatter Plot of Estimated APY vs Actual APY: Indicating Market Efficiency 
   D.) MoneyBall metric of Overall Performance vs Estimated Pay Difference to find Overpaid Stars, Underpaid Stars, Replacement Players, and valuable depth pieces.
   E.) 3 Graphs indicating the best and worst contracts
         - Best and Worst Contracts according to Value Ratio (Including Rookie and Min. Salaries)
@@ -68,12 +76,79 @@ Taking into account the results I procceed to visualize my finding in different 
 
 Below are the primary visualisations produced by the model.
 Each chart highlights a different aspect of defensive line performance and contract efficiency.
-### Pass Defense vs Run Defense Role Classification
+## Player Role & Performance Analysis
+### Pass Defence vs Run Defence
 
-This visualization helps classify defensive linemen into roles such as
-designated pass rushers, run stoppers, and every-down defenders.
+This chart separates players based on their pass rush production and run defence impact.
+allowing role classification into pass-rushers, run-stoppers, or balanced players.
 
-![Pass vs Run Defense](outputs/pass_vs_run.png)
+![Edge Class Pass vs Run Defense](outputs/Edge_PassD_vs_RunD.png)
+![Interior Class Pass vs Run Defense](outputs/Int_PassD_vs_RunD.png)
+
+
+
+### Situational Impact vs Overall Performance
+
+This visualisation highlights which players deliver impact in high-leverage situations
+such as 3rd and 4th downs.
+
+![Edges Situational Impact](outputs/Edges_Clutch_fig.png)
+![Interior Situational Impact](outputs/Interiors_Clutch_Fig.png)
+
+
+## Market Efficiency Analysis
+
+### Actual APY vs Estimated APY
+
+This scatter plot compares real contract values with model-estimated values.
+The diagonal line represents perfect market efficiency.
+
+Players above the line are likely underpaid relative to their production,
+While players below the line may be overpaid.
+
+![Edges APY Comparison](outputs/Edges_Apy_fig.png)
+![Interiors APY Comparison](outputs/Int_Apy_fig.png)
+
+### Moneyball Market Inefficiency Map
+
+This chart compares overall performance with the estimated pay difference to identify
+potential market inefficiencies.
+
+Quadrants identify:
+
+• Underpaid stars  
+• Overpaid stars  
+• Valuable depth players  
+• Replacement-level players  
+
+![Edge Moneyball Analysis](outputs/Edge_MoneyBall_fig.png)
+![Interiors Moneyball Analysis](outputs/Interior_MoneyBall_Fig.png)
+
+
+## Contract Value Rankings
+
+### Including Rookie and Minimum Salary Deals
+
+![Edge Contracts Including Rookie Deals](outputs/Edges_Contracts_inc._Rookies_and_Min.png)
+![Interior Contracts Including Rookie Deals](outputs/Interior_Contracts_inc._Rookie_and_Min.png)
+
+### Excluding Rookie and Minimum Salary Deals
+
+![Edge Contracts Excluding Rookie Deals](outputs/Edge_Contracts_ex_Rookie_and_Min.png)
+![Interior Contracts Excluding Rookie Deals](outputs/Interior_Contracts_ex_Rookie_and_Min.png)
+
+### Weighted Contract Efficiency
+
+This metric adjusts for contract size and player production
+to better identify true contract efficiency.
+
+![Edges Weighted Contract Efficiency](outputs/Edges_Weighted_Contracts.png)
+![Interior Weighted Contract Efficiency](outputs/Interior_Weighted_Contracts.png)
+
+
+
+
+
 
 
 
