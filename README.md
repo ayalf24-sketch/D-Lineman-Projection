@@ -160,12 +160,12 @@ Tools Used: Python, Pandas, NumPy, Matplotlib, Seaborn
 
 **Limitations**
 Several factors limit the precision of this contract valuation model:
-Team scheme differences
-Role-based responsibilities
-Injury history and Age
-Leadership and intangible contributions
-Specific Contract timing and market inflation
-The model should therefore be interpreted as a performance-based approximation of contract value, rather than an exact valuation.
+-Team scheme differences
+-Role-based responsibilities
+-Injury history and Age
+-Leadership and intangible contributions
+-Specific Contract timing and market inflation
+-The model should therefore be interpreted as a performance-based approximation of contract value, rather than an exact valuation.
 
 
 **Conclusion**
