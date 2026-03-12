@@ -2,7 +2,7 @@
 
 **Overview:**
 
-In this project, I analyse NFL defensive line contracts to identify market inefficiencies and evaluate whether players are overpaid or underpaid relative to their on-field performance. Using player production metrics, situational impact data, and contract values, I built a performance-based valuation model that estimates the annual value (APY) each defensive lineman is producing, regardless of age. This estimated value is then compared with the player’s actual contract to determine contract efficiency.
+In this project, I analysed NFL defensive line contracts to identify market inefficiencies and evaluate whether players are overpaid or underpaid relative to their on-field performance. Using player production metrics, situational impact data, and contract values, I built a performance-based valuation model that estimates the annual value (APY) each defensive lineman is producing at, regardless of age. This estimated value is then compared with the player’s actual contract to determine contract efficiency.
 The analysis focuses on two primary defensive line positions: 1.) EDGE defenders 2.) Interior defensive linemen (IDL) 
   - Each position has its own separate graphing and scoring system
 
