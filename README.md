@@ -147,6 +147,39 @@ to better identify true contract efficiency.
 
 
 
+## Data Tables
+
+Full Class Outputs:
+-Containing every player's calculated metrics, including:
+- Player Name and ID
+- Tier
+- Final Aggregate Score
+- Agg_PR_Score
+- Agg_RunD_Score
+- Situational Score
+- Role designation
+- Actual APY
+- Estimated APY
+- Overpaid / Underpaid/ FairlyPaid designation
+- Tier_apy z score
+
+### Edge Defenders
+
+Full dataset of EDGE defenders and their calculated metrics:
+
+[Edge Outputs](edge_full_dataframe.txt)
+
+### Interior Defensive Linemen
+
+Full dataset of Interior Defensive Linemen and their calculated metrics:
+
+[Interior Outputs](interior_full_dataframe.txt)
+
+### Downloadable CSV Data
+
+- [Edge Player Dataset](edge_player_stats.csv)
+- [Interior Defensive Line Dataset](interior_player_stats.csv)
+
 
 
 
