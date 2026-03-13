@@ -186,6 +186,20 @@ Full dataset of Interior Defensive Linemen and their calculated metrics:
 
 Tools Used: Python, Pandas, NumPy, Matplotlib, Seaborn
 
+## Data Sources
+
+All raw NFL data used in this project is loaded programmatically using the
+`nflreadpy` Python library.
+
+The following datasets were used from the 2022–2024 seasons:
+
+- Play-by-play data
+- Player statistics
+- Snap counts
+- Player rosters
+- Contract data
+- Injury reports
+
 
 
 **Limitations**
