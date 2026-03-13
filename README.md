@@ -10,9 +10,9 @@ The analysis focuses on two primary defensive line positions: 1.) EDGE defenders
 
 Example visualisations from the contract valuation model:
 
-![Moneyball Graph](outputs/Edge_MoneyBall_fig.png)
+![Moneyball Graph](Edge_MoneyBall_fig.png)
 
-![Interior Weighted Contract Efficiency](outputs/Interior_Weighted_Contracts.png)
+![Interior Weighted Contract Efficiency](Interior_Weighted_Contracts.png)
 
 **KEY GOALS:**
 Create a tiering system 0-5 (0: Elite, 1: Very good, ...) where I cluster players together based on their performance scores.
@@ -82,8 +82,8 @@ Each chart highlights a different aspect of defensive line performance and contr
 This chart separates players based on their pass rush production and run defence impact.
 allowing role classification into pass-rushers, run-stoppers, or balanced players.
 
-![Edge Class Pass vs Run Defense](outputs/Edge_PassD_vs_RunD.png)
-![Interior Class Pass vs Run Defense](outputs/Int_PassD_vs_RunD.png)
+![Edge Class Pass vs Run Defense](Edge_PassD_vs_RunD.png)
+![Interior Class Pass vs Run Defense](Int_PassD_vs_RunD.png)
 
 
 
@@ -92,8 +92,8 @@ allowing role classification into pass-rushers, run-stoppers, or balanced player
 This visualisation highlights which players deliver impact in high-leverage situations
 such as 3rd and 4th downs.
 
-![Edges Situational Impact](outputs/Edges_Clutch_fig.png)
-![Interior Situational Impact](outputs/Interiors_Clutch_Fig.png)
+![Edges Situational Impact](Edges_Clutch_fig.png)
+![Interior Situational Impact](Interiors_Clutch_Fig.png)
 
 
 ## Market Efficiency Analysis
@@ -106,8 +106,8 @@ The diagonal line represents perfect market efficiency.
 Players above the line are likely underpaid relative to their production,
 While players below the line may be overpaid.
 
-![Edges APY Comparison](outputs/Edges_Apy_fig.png)
-![Interiors APY Comparison](outputs/Int_Apy_fig.png)
+![Edges APY Comparison](Edges_Apy_fig.png)
+![Interiors APY Comparison](Int_Apy_fig.png)
 
 ### Moneyball Market Inefficiency Map
 
@@ -121,32 +121,29 @@ Quadrants identify:
 • Valuable depth players  
 • Replacement-level players  
 
-![Edge Moneyball Analysis](outputs/Edge_MoneyBall_fig.png)
-![Interiors Moneyball Analysis](outputs/Interior_MoneyBall_Fig.png)
+![Edge Moneyball Analysis](Edge_MoneyBall_fig.png)
+![Interiors Moneyball Analysis](Interior_MoneyBall_Fig.png)
 
 
 ## Contract Value Rankings
 
 ### Including Rookie and Minimum Salary Deals
 
-![Edge Contracts Including Rookie Deals](outputs/Edges_Contracts_inc._Rookies_and_Min.png)
-![Interior Contracts Including Rookie Deals](outputs/Interior_Contracts_inc._Rookie_and_Min.png)
+![Edge Contracts Including Rookie Deals](Edges_Contracts_inc._Rookies_and_Min.png)
+![Interior Contracts Including Rookie Deals](Interior_Contracts_inc._Rookie_and_Min.png)
 
 ### Excluding Rookie and Minimum Salary Deals
 
-![Edge Contracts Excluding Rookie Deals](outputs/Edge_Contracts_ex_Rookie_and_Min.png)
-![Interior Contracts Excluding Rookie Deals](outputs/Interior_Contracts_ex_Rookie_and_Min.png)
+![Edge Contracts Excluding Rookie Deals](Edge_Contracts_ex_Rookie_and_Min.png)
+![Interior Contracts Excluding Rookie Deals](Interior_Contracts_ex_Rookie_and_Min.png)
 
 ### Weighted Contract Efficiency
 
 This metric adjusts for contract size and player production
 to better identify true contract efficiency.
 
-![Edges Weighted Contract Efficiency](outputs/Edges_Weighted_Contracts.png)
-![Interior Weighted Contract Efficiency](outputs/Interior_Weighted_Contracts.png)
-
-
-
+![Edges Weighted Contract Efficiency](Edges_Weighted_Contracts.png)
+![Interior Weighted Contract Efficiency](Interior_Weighted_Contracts.png)
 
 
 
