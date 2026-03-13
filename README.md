@@ -41,7 +41,7 @@ Now the calculations for ex. of PR_per100 take into account the number of sacks,
 These calculations are done accordingly for the other metrics using different stats and different weightings. 
 At the end of each season, a player receives a season score, and then finally scores from all 3 seasons are aggregated with recent years being valued more.
 
-##Weighting Assumptions
+**Weighting Assumptions**
 
 It is important to note that the weighting system used in this model is subjective. The weights assigned to different performance metrics are intended to approximate how professional evaluators might prioritise certain aspects of defensive line play when assessing player value.
 
