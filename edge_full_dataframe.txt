@@ -1,0 +1,228 @@
+      player_id       player_name  Tier  Final_agg_score  agg_PR_score  agg_RunD_score  Situational_score        apy                  Role    Est_APY    Pay_flag  Tier_APY_Z
+0    00-0033935     T.Hendrickson     0       830.913673     19.585509       16.751663         136.733333  28.000000              Balanced  40.412824   UnderPaid   -1.151939
+1    00-0033886            T.Watt     0       797.993348     16.043542       18.978028         127.200000  41.000000            Every-Down  41.270251  FairlyPaid    0.645086
+2    00-0033868         M.Garrett     0       783.692030     17.970618       18.721906         137.666667  40.000000            Every-Down  38.482616  FairlyPaid    0.506853
+3    00-0035717            N.Bosa     1       677.163073     18.598907       21.117690         124.333333  34.000000            Every-Down  37.910775  FairlyPaid    0.413801
+4    00-0031040            K.Mack     1       656.654153     13.958717       17.593841         112.733333  18.000000            Every-Down  35.995939   UnderPaid   -0.992353
+5    00-0031565          D.Hunter     1       647.919267     14.155318       19.442019         112.733333  40.100000            Every-Down  35.180398  FairlyPaid    0.949897
+6    00-0034973          M.Crosby     1       646.627029     13.603022       21.766666         123.800000  35.500000            Every-Down  35.059747  FairlyPaid    0.545628
+7    00-0036932         M.Parsons     1       640.330788     16.430084       18.473627         111.000000  46.500000            Every-Down  34.471892    OverPaid    1.512359
+8    00-0037236      A.Hutchinson     1       604.738979     18.070403       17.305059          89.800000  45.000000              Balanced  26.397312    OverPaid    1.380532
+9    00-0037192       G.Karlaftis     1       597.345849     13.008957       14.705722         107.133333  22.000000  Pass-Rush Specialist  24.521723  FairlyPaid   -0.640815
+10   00-0034967            R.Gary     1       559.777175     14.979347       19.699875          92.133333  24.000000            Every-Down  26.950926  FairlyPaid   -0.465045
+11   00-0033875         H.Reddick     1       551.925763     12.075641       13.699577         127.200000  14.000000  Pass-Rush Specialist  21.107608   UnderPaid   -1.343892
+12   00-0034381           J.Sweat     1       542.814513     14.083913       17.363898          98.666667  19.100000              Balanced  21.497619  FairlyPaid   -0.895680
+13   00-0035642     J.Hines-Allen     1       541.108106     13.659966       16.792282          91.866667  24.007000              Balanced  21.362602  FairlyPaid   -0.464430
+14   00-0039108        W.Anderson     2       526.027907     18.125501       21.311147          87.000000   8.803205            Every-Down  25.702712   UnderPaid   -0.145047
+15   00-0036914        G.Rousseau     2       523.101106     14.006351       21.235569          77.200000  20.000000            Every-Down  25.439915   UnderPaid    1.454999
+16   00-0032052          D.Fowler     2       519.079827     15.184907       19.069866          73.333333   6.000000            Every-Down  25.078845   UnderPaid   -0.545630
+17   00-0033072           L.Floyd     2       493.512636     13.749966       16.219387          82.133333  10.000000              Balanced  19.307773   UnderPaid    0.025978
+18   00-0035272      A.Van Ginkel     2       489.058778      9.870760       23.695956          62.133333  23.000000          Run Defender  17.071979    OverPaid    1.883705
+19   00-0033156            J.Bosa     2       487.483094     15.157406       15.287442          75.000000  12.610000              Balanced  18.848967   UnderPaid    0.398952
+20   00-0035647           M.Sweat     2       486.089692     14.036024       17.432986          81.266667  24.500000            Every-Down  22.116667  FairlyPaid    2.098058
+21   00-0035402      C.Granderson     2       478.535763      9.799765       22.292313          84.600000  13.000000          Run Defender  16.351323  FairlyPaid    0.454684
+22   00-0039138          K.Turner     2       477.075083     12.401885       18.383600          92.600000   1.347868            Every-Down  21.307247   UnderPaid   -1.210430
+23   00-0037235          T.Walker     2       468.707920      7.687445       13.207010          76.866667   9.343156           Replacement  13.065230  FairlyPaid   -0.067886
+24   00-0036479            K.Paye     2       464.344956     10.408221       18.267432          76.800000  16.000000          Run Defender  15.379484  FairlyPaid    0.883391
+25   00-0031576           Z.Smith     2       455.817710     13.887956       15.051395          78.066667   4.250000              Balanced  16.439451   UnderPaid   -0.795709
+26   00-0031935           P.Smith     2       408.708157     11.092923       15.750813          73.600000   1.255000              Balanced  12.854741   UnderPaid   -1.223701
+27   00-0031364         J.Clowney     2       401.295002     10.007731       15.575007          62.600000   3.500000              Balanced  12.290652   UnderPaid   -0.902886
+28   00-0032146          B.Dupree     2       398.717666      9.413918       12.263166          62.600000   4.005000           Replacement   9.070901   UnderPaid   -0.830720
+29   00-0035279         C.Omenihu     2       397.095550     10.755454       12.344779          69.200000   4.000000           Replacement   8.978327  FairlyPaid   -0.831435
+30   00-0036413          D.Taylor     2       387.033283     12.292596       15.797638          63.400000   4.750000              Balanced  11.205434   UnderPaid   -0.724258
+31   00-0036192         A.Epenesa     2       384.991771     14.279404       15.661758          51.133333   6.000000              Balanced  11.050089   UnderPaid   -0.545630
+32   00-0036480       D.Odeyingbo     2       379.757100     10.281614       14.475990          62.533333  16.000000           Replacement   7.988825    OverPaid    0.883391
+33   00-0036378           M.Danna     2       374.417636      8.403471       15.589050          58.733333   8.000000              Balanced  10.245471  FairlyPaid   -0.259826
+34   00-0027865          B.Graham     3       346.978335     13.997839       17.375902          57.000000   2.444444            Every-Down  19.353851   UnderPaid   -0.612638
+35   00-0032415           M.Judon     3       339.619407     13.668116       17.626487          91.133333   3.000000            Every-Down  18.816757   UnderPaid   -0.504642
+36   00-0032671             M.Fox     3       326.266844      9.336567       11.952062          62.266667   0.315000           Replacement  11.340391   UnderPaid   -1.026585
+37   00-0033073           E.Ogbah     3       325.235910     10.682419       14.426118          38.266667   3.250000           Replacement  11.292567   UnderPaid   -0.456044
+38   00-0036151            B.Huff     3       312.526443     14.692394       14.998602          52.933333  17.033333  Pass-Rush Specialist  13.557119  FairlyPaid    2.223331
+39   00-0034834         S.Hubbard     3       305.864019      8.934613       17.975850          48.066667  10.000000          Run Defender  12.472711  FairlyPaid    0.856105
+40   00-0027940          V.Miller     3       305.446561      8.509360        9.356568          60.333333   6.100000           Replacement  10.374560  FairlyPaid    0.097974
+41   00-0027962          C.Jordan     3       301.590483      7.546597       15.641654          51.533333   6.050000           Replacement  10.195680  FairlyPaid    0.088255
+42   00-0039142        W.McDonald     3       281.455726     15.435356       11.873351          57.200000   4.080416  Pass-Rush Specialist  11.731423   UnderPaid   -0.294617
+43   00-0033876         D.Barnett     3       277.272414     11.216300       18.809369          36.200000   4.000000          Run Defender  10.881108   UnderPaid   -0.310249
+44   00-0034807       O.Okoronkwo     3       274.630836      9.007937       15.302387          43.066667   1.255000              Balanced  11.926734   UnderPaid   -0.843856
+45   00-0036321           C.Young     3       270.123322      9.503767       10.384781          40.000000  17.000000           Replacement   8.735951    OverPaid    2.216851
+46   00-0034797           J.Baker     3       261.412902      4.263962       19.966430          39.533333   1.422500          Run Defender   9.998261   UnderPaid   -0.811296
+47   00-0036288     Y.Gross-Matos     3       260.391397      8.183013       15.768476          34.266667   9.000000              Balanced  11.045996  FairlyPaid    0.661712
+48   00-0033782          D.Walker     3       257.885070     10.658709       15.723339          42.866667   0.315000              Balanced  10.890975   UnderPaid   -1.026585
+49   00-0034375           K.White     3       254.413697      2.276172       19.080051          41.800000   0.315000          Run Defender   9.608637   UnderPaid   -1.026585
+50   00-0038541          T.Wilson     3       251.837456      8.228726       13.335652          39.600000   6.251375           Replacement   7.887689  FairlyPaid    0.127401
+51   00-0033463          C.Lawson     3       242.758482     14.268627       12.778386          44.533333   0.315000  Pass-Rush Specialist   9.457598   UnderPaid   -1.026585
+52   00-0034832           B.Chubb     3       234.288871     13.027755       15.869322          82.400000  18.163333              Balanced   9.431504    OverPaid    2.442994
+53   00-0033123         Y.Ngakoue     3       228.603687      9.121333       11.151751          41.800000   0.411344           Replacement   6.809898   UnderPaid   -1.007857
+54   00-0037083        K.Enagbare     3       226.227249      7.554225       18.367670          20.666667  10.000000          Run Defender   8.039589  FairlyPaid    0.856105
+55   00-0033945          S.Ebukam     3       223.621747     11.616589       16.005246          90.200000   8.000000              Balanced   8.771721  FairlyPaid    0.467320
+56   00-0036982         C.Golston     3       219.197764      5.712949       16.415539          22.266667   6.000000           Replacement   6.373567  FairlyPaid    0.078535
+57   00-0035692         C.Ferrell     3       218.122820      8.855272       14.414577          21.000000   0.315000           Replacement   6.323702   UnderPaid   -1.026585
+58   00-0039112        L.Van Ness     3       214.752283      9.362782       21.542071          27.000000   4.347024          Run Defender   7.400815  FairlyPaid   -0.242791
+59   00-0038127            L.Hall     3       214.261781      5.831956       10.942523          27.733333   6.875000           Replacement   6.144592  FairlyPaid    0.248629
+60   00-0036902           J.Ossai     3       211.792338     11.736861       16.155825          29.466667  11.500000              Balanced   8.040049  FairlyPaid    1.147693
+61   00-0033907           D.Smoot     3       211.103362      7.866272        9.945526          29.800000   1.500000           Replacement   5.998076  FairlyPaid   -0.796230
+62   00-0039006  F.Anudike-Uzomah     3       200.167151      8.945376       22.017381          13.800000   2.954455          Run Defender   6.588908  FairlyPaid   -0.513495
+63   00-0038107         M.Clemons     3       191.583973      5.640123       17.724375          21.400000   5.666667          Run Defender   6.111110  FairlyPaid    0.013738
+64   00-0031411        D.Lawrence     4       162.950654      3.894298        5.563282          52.200000  10.833333           Replacement   7.875264  FairlyPaid    2.336865
+65   00-0034163          J.Martin     4       160.576034     11.996479       14.372994          18.600000   2.585000  Pass-Rush Specialist   9.824052   UnderPaid   -0.145350
+66   00-0038574         I.McGuire     4       159.627633      7.036247       20.469083          21.600000   1.137982          Run Defender   9.249756   UnderPaid   -0.580809
+67   00-0036403         C.Toohill     4       149.374903      6.160469       15.374028          14.933333   1.337500           Replacement   7.192459   UnderPaid   -0.520767
+68   00-0038096         J.Paschal     4       146.060336      4.945034       12.011478          18.866667   1.933915           Replacement   7.025750   UnderPaid   -0.341285
+69   00-0039148           K.White     4       142.736773      2.843416        5.795643          21.000000   1.947543           Replacement   6.858588  FairlyPaid   -0.337183
+70   00-0033964        A.Muhammad     4       140.482881      6.071588       11.569469          20.200000   1.422500           Replacement   6.745226   UnderPaid   -0.495187
+71   00-0033870          S.Thomas     4       137.115308      3.473795        9.534959          17.200000   3.000000           Replacement   6.575851  FairlyPaid   -0.020462
+72   00-0039340            L.Latu     4       136.887379      8.090615       13.268608          19.000000   4.257974           Replacement   6.564387  FairlyPaid    0.358107
+73   00-0038980        Z.Harrison     4       134.619073      6.624771       21.508685          10.600000   1.392112          Run Defender   7.740361   UnderPaid   -0.504332
+74   00-0035933          M.Hoecht     4       133.906383      5.815603       18.439716          32.000000   7.000000          Run Defender   7.697346  FairlyPaid    1.183280
+75   00-0036351  J.Smith-Williams     4       133.026275      6.269271       15.218366          12.666667   1.292500           Replacement   6.370189   UnderPaid   -0.534309
+76   00-0034359           T.Lewis     4       131.394329      3.881970        9.735770          24.600000   6.000000           Replacement   6.288109  FairlyPaid    0.882344
+77   00-0031177           B.Urban     4       130.135023      5.796211       18.074757          11.333333   0.443722          Run Defender   7.469725   UnderPaid   -0.789736
+78   00-0034320          K.Street     4       129.422858      4.710473       15.122458          15.933333   0.396000           Replacement   6.188952   UnderPaid   -0.804098
+79   00-0037665        S.Williams     4       118.252593     13.804755       22.426862          28.400000   2.500000            Every-Down   8.853356   UnderPaid   -0.170930
+80   00-0034371            D.Hand     4       117.234776      5.090684       16.027344          10.000000   2.350000           Replacement   5.575941  FairlyPaid   -0.216070
+81   00-0036989          M.Koonce     4       115.800000     16.400000       22.400000          21.800000  11.010000            Every-Down   8.659276  FairlyPaid    2.390031
+82   00-0036249          J.Okwara     4       109.734029      6.151956       17.501418          20.266667   0.396000          Run Defender   6.238420   UnderPaid   -0.804098
+83   00-0038387          C.Wooden     4       108.144367      4.399767       16.349391           9.000000   1.151982           Replacement   5.118730  FairlyPaid   -0.576596
+84   00-0036926          P.Turner     4       108.071642      7.761194       14.925373           9.333333   2.500000           Replacement   5.115072  FairlyPaid   -0.170930
+85   00-0035636         L.Collier     4       102.441356      6.271186       11.525424          13.466667   2.000000           Replacement   4.831892  FairlyPaid   -0.321397
+86   00-0036711         C.Snowden     4       101.432512      7.635468       21.182266          14.000000   1.075000          Run Defender   5.737381  FairlyPaid   -0.599762
+87   00-0027881          J.Hughes     4        98.493458      6.965568       12.296852          33.000000   1.300000           Replacement   4.633328  FairlyPaid   -0.532052
+88   00-0035678           D.Jones     4        94.936464      2.588532        5.006477          52.000000  12.166667           Replacement   4.454426    OverPaid    2.738113
+89   00-0033093         J.Bullard     4        94.410693      2.251693       11.233114          12.333333   1.422500           Replacement   4.427982  FairlyPaid   -0.495187
+90   00-0037251          A.Wright     4        93.608014      6.288363       12.608226          19.466667  11.000000           Replacement   4.387610    OverPaid    2.387021
+91   00-0039840          A.Booker     4        89.783746      6.007067       16.961131          14.000000   1.092285           Replacement   4.195265  FairlyPaid   -0.594561
+92   00-0034359          Ty.Lewis     4        82.903486     12.844037       15.137615          35.600000   6.000000              Balanced   5.132288  FairlyPaid    0.882344
+93   00-0028008         J.Houston     4        80.364534     11.214703       12.055678          36.000000   6.000000           Replacement   3.721517  FairlyPaid    0.882344
+94   00-0038546          M.Murphy     4        78.956913      5.350857       14.473599           6.000000   3.146814           Replacement   3.650719  FairlyPaid    0.023720
+95   00-0037711          J.Pharms     4        77.168665      4.814004       17.067834           6.800000   1.145000           Replacement   3.560778  FairlyPaid   -0.578697
+96   00-0033902      T.Kpassagnon     4        75.819143      8.679428       15.161604          15.666667   0.396000              Balanced   4.657203  FairlyPaid   -0.804098
+97   00-0033096          S.Lawson     4        69.484499      7.298303       13.366050          25.000000   0.315000           Replacement   3.174295  FairlyPaid   -0.828473
+98   00-0035265        J.Cominsky     4        68.181803      7.558818       13.800851          22.600000   3.000000           Replacement   3.108775  FairlyPaid   -0.020462
+99   00-0039061         D.Johnson     4        65.382504      2.838110        4.376571           8.000000   0.979446           Replacement   2.967981  FairlyPaid   -0.628518
+100  00-0035944        J.Williams     4        65.146449      1.174843        5.180040          12.200000   0.342000           Replacement   2.956109  FairlyPaid   -0.820348
+101  00-0033595        P.O'Connor     4        64.596610      3.389831       18.644068           4.333333   0.315000          Run Defender   3.514145  FairlyPaid   -0.828473
+102  00-0036850          C.Sample     5        58.863071      7.540529       14.931216          15.000000   1.267500           Replacement   3.750000  FairlyPaid   -0.061924
+103  00-0037826         D.Jackson     5        57.952109      2.172183        1.687999          30.800000   1.402500           Replacement   3.750000  FairlyPaid   -0.007281
+104  00-0037082        D.Robinson     5        55.941558      2.244178        7.492618           8.400000   3.000000           Replacement   3.750000  FairlyPaid    0.639320
+105  00-0037815          C.Thomas     5        55.873025      7.343041       17.211745          17.333333   3.095000           Replacement   3.750000  FairlyPaid    0.677772
+106  00-0039412   J.Jean-Baptiste     5        54.116129      4.032258       15.322581           4.000000   1.035297           Replacement   3.750000  FairlyPaid   -0.155910
+107  00-0034831           R.Green     5        53.548753      6.466298       11.977318          16.400000   1.210000           Replacement   3.750000  FairlyPaid   -0.085197
+108  00-0031795        D.Williams     5        52.711632      1.482732        3.330617          13.400000   1.210000           Replacement   3.750000  FairlyPaid   -0.085197
+109  00-0037310         J.Houston     5        51.762803      6.624860        4.848661          26.200000   1.087500           Replacement   3.750000  FairlyPaid   -0.134780
+110  00-0038581           K.Henry     5        51.258723      6.028369       16.312057          18.400000   1.075000           Replacement   3.750000  FairlyPaid   -0.139840
+111  00-0033064          A.Gotsis     5        51.148433      7.889560       14.439973           9.200000   0.443722           Replacement   3.750000  FairlyPaid   -0.395355
+112  00-0039749           T.Davis     5        48.912676      1.408451       20.845070           2.000000   1.050638          Run Defender   4.500000  FairlyPaid   -0.149700
+113  00-0036682         M.Herring     5        46.701408      7.981221       12.206573           8.000000   0.396000           Replacement   3.750000  FairlyPaid   -0.414671
+114  00-0027949            J.Watt     5        45.684785     17.055215       17.177914          66.600000  14.000000              Balanced   4.990001    OverPaid    5.091660
+115  00-0039009          D.Horton     5        41.111111      2.777778       16.666667           0.000000   1.160261           Replacement   3.547767  FairlyPaid   -0.105330
+116  00-0039900        M.Kneeland     5        38.831250      3.125000       13.281250           0.000000   1.708162           Replacement   3.450697  FairlyPaid    0.116438
+117  00-0032655          R.Okwara     5        37.796353      7.902736        7.902736           8.000000   2.500000           Replacement   3.406635  FairlyPaid    0.436941
+118  00-0033563         C.Watkins     5        34.361890      0.330033       13.513983           4.333333   0.315000           Replacement   3.260405  FairlyPaid   -0.447456
+119  00-0035343       J.Ledbetter     5        34.347822      2.713064       12.459618           9.000000   0.870000           Replacement   3.259806  FairlyPaid   -0.222815
+120  00-0038940            T.Lacy     5        32.117647      0.588235       15.882353           0.000000   1.131780           Replacement   3.164852  FairlyPaid   -0.116858
+121  00-0034612          D.Harris     5        30.175752      1.462119        7.090905           0.000000   1.170000           Replacement   3.082172  FairlyPaid   -0.101388
+122  00-0037303      M.Henningsen     5        28.379086      3.086011       17.196273           2.000000   1.100000           Replacement   3.005676  FairlyPaid   -0.129721
+123  00-0033969        I.Odenigbo     5        26.848276     12.643678       16.091954          29.000000   1.080000              Balanced   3.920664  FairlyPaid   -0.137816
+124  00-0027662          C.Dunlap     5        25.628876     10.650888       14.792899          30.800000   3.000000           Replacement   2.888580  FairlyPaid    0.639320
+125  00-0036305          T.Gipson     5        23.891886      1.471451        2.513257          10.600000   0.410000           Replacement   2.814624  FairlyPaid   -0.409004
+126  00-0035944       Jo.Williams     5        22.742857      0.317460        0.000000           9.000000   0.342000           Replacement   2.765702  FairlyPaid   -0.436528
+127  00-0027867     J.Pierre-Paul     5        21.511454      7.001795       12.567325          20.800000   0.396000           Replacement   2.713272  FairlyPaid   -0.414671
+128  00-0032107        A.Blackson     5        20.861130      0.510204       12.799003           0.000000   1.377500           Replacement   2.685584  FairlyPaid   -0.017400
+129  00-0031500           E.Obada     5        19.645128     11.282051       14.871795           8.200000   0.302400           Replacement   2.633810  FairlyPaid   -0.452556
+130  00-0039291           E.Watts     5        19.220779      0.000000       11.255411           0.000000   0.234000           Replacement   2.615742  FairlyPaid   -0.480241
+131  00-0034657       M.Dickerson     5        19.036893      0.000000       16.504854           3.000000   1.450000           Replacement   2.607913  FairlyPaid    0.011945
+132  00-0029585           C.Jones     5        18.569072      3.342175        4.456233          30.800000  17.000000           Replacement   2.587995    OverPaid    6.305935
+133  00-0034424           M.Adams     5        18.309477      0.000000        5.110112           0.000000   1.292500           Replacement   2.576942  FairlyPaid   -0.051805
+134  00-0036705          S.Kamara     5        18.021978      0.000000        9.523810           0.000000   0.234000           Replacement   2.564701  FairlyPaid   -0.480241
+135  00-0033912          J.Willis     5        15.212180      7.518797       12.030075          10.600000   0.370800           Replacement   2.445068  FairlyPaid   -0.424870
+136  00-0036867           C.Rumph     5        13.913203      8.496732       13.071895           6.800000   1.100000           Replacement   2.389762  FairlyPaid   -0.129721
+137  00-0031256            A.Barr     5        12.740113      2.542373       20.056497           9.000000   0.370800          Run Defender   2.807778  FairlyPaid   -0.424870
+138  00-0036237       L.Murchison     5        12.565517      0.000000        9.961686           6.800000   0.315000           Replacement   2.332381  FairlyPaid   -0.447456
+139  00-0034344       M.Davenport     5         9.933878      3.877551       11.020408          12.600000   2.500000           Replacement   2.220334  FairlyPaid    0.436941
+140  00-0032215          D.Wilson     5         8.923795      1.224178        6.120888          11.000000   1.210000           Replacement   2.177328  FairlyPaid   -0.085197
+141  00-0030946           K.Hyder     5         8.599267      4.889976       11.735941           4.000000   0.370800           Replacement   2.163510  FairlyPaid   -0.424870
+142  00-0027952           R.Quinn     5         7.207308      3.846154        6.730769           6.600000  14.000000           Replacement   2.104245    OverPaid    5.091660
+143  00-0035541           M.Dogbe     5         6.028369      0.000000       19.858156           0.000000   0.289800          Run Defender   2.464859  FairlyPaid   -0.457656
+144  00-0035531          A.Bryant     5         5.000000      3.846154        8.653846           0.000000   1.125000           Replacement   2.010264  FairlyPaid   -0.119602
+145  00-0027862          T.Alualu     5         4.683162      3.092784        6.872852           2.000000   1.165000           Replacement   1.996774  FairlyPaid   -0.103412
+146  00-0038423          J.Harris     5         2.629870      0.649351        1.623377           0.000000   0.216000           Replacement   1.909351  FairlyPaid   -0.487527
+147  00-0034125         K.Vickers     5         2.608696      0.000000        8.695652           0.000000   1.055000           Replacement   1.908450  FairlyPaid   -0.147935
+148  00-0035306         D.Johnson     5         1.101928      0.000000        3.305785           0.000000   1.080000           Replacement   1.844296  FairlyPaid   -0.137816
+149  00-0038514           T.Jones     5         1.035971      0.000000        0.575540           0.000000   0.234000           Replacement   1.841488  FairlyPaid   -0.480241
+150  00-0037551           M.Jones     5         0.699301      0.000000        2.331002           0.000000   0.972500           Replacement   1.827153  FairlyPaid   -0.181327
+151  00-0031130           C.Jones     5         0.063660      0.000000        0.212202           0.000000   0.355444           Replacement   1.800090  FairlyPaid   -0.431086
+152  00-0034204         O.Adeniyi     5         0.000000           NaN             NaN           0.000000   1.187500           Replacement   1.797379  FairlyPaid   -0.094304
+153  00-0037364           A.Mosby     5         0.000000           NaN             NaN           4.000000   0.234000           Replacement   1.797379  FairlyPaid   -0.480241
+154  00-0037046           D.Jeter     5         0.000000           NaN             NaN           0.000000   0.750000           Replacement   1.797379  FairlyPaid   -0.271386
+155  00-0034354           K.Turay     5         0.000000           NaN             NaN           0.000000   1.125000           Replacement   1.797379  FairlyPaid   -0.119602
+156  00-0035903         J.Gaziano     5         0.000000           NaN             NaN           1.333333   1.170000           Replacement   1.797379  FairlyPaid   -0.101388
+157  00-0036291        M.Davidson     5         0.000000           NaN             NaN           4.000000   0.396000           Replacement   1.797379  FairlyPaid   -0.414671
+158  00-0036296          J.Zuniga     5         0.000000           NaN             NaN           0.000000   0.940000           Replacement   1.797379  FairlyPaid   -0.194482
+159  00-0035850           K.Cline     5         0.000000           NaN             NaN           0.000000   0.960000           Replacement   1.797379  FairlyPaid   -0.186387
+160  00-0036341          K.Kareem     5         0.000000           NaN             NaN           0.000000   0.315000           Replacement   1.797379  FairlyPaid   -0.447456
+161  00-0035754          J.Kongbo     5         0.000000           NaN             NaN           0.000000   0.705000           Replacement   1.797379  FairlyPaid   -0.289600
+162  00-0035654        C.Winovich     5         0.000000           NaN             NaN           2.000000   0.421500           Replacement   1.797379  FairlyPaid   -0.404349
+163  00-0036447            D.Bada     5         0.000000           NaN             NaN           0.000000   0.795000           Replacement   1.797379  FairlyPaid   -0.253172
+164  00-0035507        K.Phillips     5         0.000000           NaN             NaN           0.000000   1.010000           Replacement   1.797379  FairlyPaid   -0.166149
+165  00-0036664    W.Bradley-King     5         0.000000           NaN             NaN           0.000000   1.005000           Replacement   1.797379  FairlyPaid   -0.168173
+166  00-0036666           S.Toney     5         0.000000           NaN             NaN           7.000000   1.042500           Replacement   1.797379  FairlyPaid   -0.152994
+167  00-0034969          B.Banogu     5         0.000000           NaN             NaN           0.000000   1.080000           Replacement   1.797379  FairlyPaid   -0.137816
+168  00-0036788          J.Heflin     5         0.000000           NaN             NaN           0.000000   1.062500           Replacement   1.797379  FairlyPaid   -0.144899
+169  00-0037051          E.Garcia     5         0.000000           NaN             NaN          11.333333   1.215000           Replacement   1.797379  FairlyPaid   -0.083174
+170  00-0036855           E.Brown     5         0.000000           NaN             NaN           0.000000   1.202500           Replacement   1.797379  FairlyPaid   -0.088233
+171  00-0037202        D.Mitchell     5         0.000000           NaN             NaN           0.000000   0.750000           Replacement   1.797379  FairlyPaid   -0.271386
+172  00-0033540        T.McKinley     5         0.000000           NaN             NaN           1.000000   0.383400           Replacement   1.797379  FairlyPaid   -0.419771
+173  00-0033973             E.Lee     5         0.000000           NaN             NaN           0.000000   1.055000           Replacement   1.797379  FairlyPaid   -0.147935
+174  00-0033947            D.Wise     5         0.000000           NaN             NaN          69.666667   1.450000           Replacement   1.797379  FairlyPaid    0.011945
+175  00-0037274         E.Otomewo     5         0.000000           NaN             NaN           1.000000   1.030000           Replacement   1.797379  FairlyPaid   -0.158054
+176  00-0037298         S.Roberts     5         0.000000           NaN             NaN           0.000000   0.234000           Replacement   1.797379  FairlyPaid   -0.480241
+177  00-0033913         C.Wormley     5         0.000000           NaN             NaN           3.000000   0.315000           Replacement   1.797379  FairlyPaid   -0.447456
+178  00-0037314          I.Thomas     5         0.000000           NaN             NaN           2.000000   0.234000           Replacement   1.797379  FairlyPaid   -0.480241
+179  00-0037061           D.Dixon     5         0.000000           NaN             NaN           0.000000   0.915000           Replacement   1.797379  FairlyPaid   -0.204601
+180  00-0037356          B.Stille     5         0.000000           NaN             NaN           2.666667   1.145000           Replacement   1.797379  FairlyPaid   -0.111507
+181  00-0037431        K.Jonathan     5         0.000000           NaN             NaN           3.000000   0.234000           Replacement   1.797379  FairlyPaid   -0.480241
+182  00-0037474          T.Shelby     5         0.000000           NaN             NaN           0.000000   0.216000           Replacement   1.797379  FairlyPaid   -0.487527
+183  00-0037760          J.Gunter     5         0.000000           NaN             NaN           0.000000   0.915000           Replacement   1.797379  FairlyPaid   -0.204601
+184  00-0033588         I.Rochell     5         0.000000           NaN             NaN           0.000000   1.080000           Replacement   1.797379  FairlyPaid   -0.137816
+185  00-0037843           D.Hardy     5         0.000000           NaN             NaN           0.000000   2.485000           Replacement   1.797379  FairlyPaid    0.430869
+186  00-0038093         N.Farrell     5         0.000000           NaN             NaN           0.000000   1.100000           Replacement   1.797379  FairlyPaid   -0.129721
+187  00-0033541        T.Charlton     5         0.000000           NaN             NaN           0.000000   1.080000           Replacement   1.797379  FairlyPaid   -0.137816
+188  00-0034810          S.Joseph     5         0.000000           NaN             NaN          25.866667   6.500000           Replacement   1.797379  FairlyPaid    2.055974
+189  00-0039425            M.Cole     5         0.000000           NaN             NaN           0.000000   1.005000           Replacement   1.797379  FairlyPaid   -0.168173
+190  00-0036878        J.Robinson     5         0.000000           NaN             NaN           5.800000   1.100000           Replacement   1.797379  FairlyPaid   -0.129721
+191  00-0039431          J.Briggs     5         0.000000           NaN             NaN           0.000000   1.075000           Replacement   1.797379  FairlyPaid   -0.139840
+192  00-0039510          C.Rogers     5         0.000000           NaN             NaN           0.000000   0.234000           Replacement   1.797379  FairlyPaid   -0.480241
+193  00-0039640            K.Duke     5         0.000000           NaN             NaN           0.000000   0.880000           Replacement   1.797379  FairlyPaid   -0.218768
+194  00-0039284        B.McGregor     5         0.000000           NaN             NaN           0.000000   0.950000           Replacement   1.797379  FairlyPaid   -0.190435
+195  00-0038850        T.McLendon     5         0.000000           NaN             NaN           0.000000   0.216000           Replacement   1.797379  FairlyPaid   -0.487527
+196  00-0039752         C.Johnson     5         0.000000           NaN             NaN           4.000000   1.039597           Replacement   1.797379  FairlyPaid   -0.154169
+197  00-0038835           J.Pryor     5         0.000000           NaN             NaN           0.000000   0.915000           Replacement   1.797379  FairlyPaid   -0.204601
+198  00-0038591          M.Morris     5         0.000000           NaN             NaN           0.000000   1.040519           Replacement   1.797379  FairlyPaid   -0.153796
+199  00-0032463            K.Peko     5         0.000000           NaN             NaN           0.000000   0.315000           Replacement   1.797379  FairlyPaid   -0.447456
+200  00-0038603            R.Beal     5         0.000000           NaN             NaN           2.000000   0.234000           Replacement   1.797379  FairlyPaid   -0.480241
+201  00-0038463             B.Cox     5         0.000000           NaN             NaN          18.600000   0.901333           Replacement   1.797379  FairlyPaid   -0.210133
+202  00-0031619       C.Covington     5         0.000000           NaN             NaN           4.000000   1.165000           Replacement   1.797379  FairlyPaid   -0.103412
+203  00-0038635           A.Jones     5         0.000000           NaN             NaN           0.000000   1.132500           Replacement   1.797379  FairlyPaid   -0.116566
+204  00-0038742           T.Wheat     5         0.000000           NaN             NaN           4.000000   1.755000           Replacement   1.797379  FairlyPaid    0.135396
+205  00-0038737            I.Land     5         0.000000           NaN             NaN           2.000000   1.132500           Replacement   1.797379  FairlyPaid   -0.116566
+206  00-0038666         D.Coleman     5         0.000000           NaN             NaN           0.000000   0.795000           Replacement   1.797379  FairlyPaid   -0.253172
+207  00-0039450            I.Ukwu     5         0.000000           NaN             NaN           0.000000   0.234000           Replacement   1.797379  FairlyPaid   -0.480241
+208  00-0039427            S.Byrd     5         0.000000           NaN             NaN           0.000000   1.005000           Replacement   1.797379  FairlyPaid   -0.168173
+209  00-0034682           G.Avery     5         0.000000           NaN             NaN           6.600000   0.383400           Replacement   1.797379  FairlyPaid   -0.419771
+210  00-0029412           V.Curry     5         0.000000           NaN             NaN           0.000000   1.300000           Replacement   1.797379  FairlyPaid   -0.048769
+211  00-0036967           J.Tryon     5         0.000000           NaN             NaN          39.400000   4.750000           Replacement   1.797379  FairlyPaid    1.347647
+212  00-0034373       D.Armstrong     5         0.000000           NaN             NaN          80.466667  11.000000           Replacement   1.797379    OverPaid    3.877386
+213  00-0033324           T.Bower     5         0.000000           NaN             NaN           0.000000   1.080000           Replacement   1.797379  FairlyPaid   -0.137816
+214  00-0038404             T.Leo     5         0.000000           NaN             NaN           0.000000   0.234000           Replacement   1.797379  FairlyPaid   -0.480241
+215  00-0036050         B.Potoa'e     5         0.000000           NaN             NaN           0.000000   0.216000           Replacement   1.797379  FairlyPaid   -0.487527
+216  00-0030511        B.Williams     5         0.000000           NaN             NaN           2.000000   0.358200           Replacement   1.797379  FairlyPaid   -0.429970
+217  00-0031615           C.Ringo     5         0.000000           NaN             NaN           0.000000   1.035000           Replacement   1.797379  FairlyPaid   -0.156030
+218  00-0039859          B.Dorlus     5         0.000000           NaN             NaN           0.000000   1.210599           Replacement   1.797379  FairlyPaid   -0.084955
+219  00-0038983        B.Thompson     5         0.000000           NaN             NaN           0.000000   1.027912           Replacement   1.797379  FairlyPaid   -0.158899
+220  00-0038985          K.Coburn     5         0.000000           NaN             NaN           0.000000   1.030000           Replacement   1.797379  FairlyPaid   -0.158054
+221  00-0031241         D.Kennard     5         0.000000           NaN             NaN           0.000000   1.120000           Replacement   1.797379  FairlyPaid   -0.121626
+222  00-0030421         J.Collins     5         0.000000           NaN             NaN           0.000000   0.356066           Replacement   1.797379  FairlyPaid   -0.430834
+223  00-0039143          I.Foskey     5         0.000000           NaN             NaN           1.000000   1.145000           Replacement   1.797379  FairlyPaid   -0.111507
+224  00-0039879         J.Solomon     5         0.000000           NaN             NaN          10.600000   1.068569           Replacement   1.797379  FairlyPaid   -0.142443
+225  00-0030010        B.Copeland     5         0.000000           NaN             NaN           4.000000   0.277200           Replacement   1.797379  FairlyPaid   -0.462756
+226  00-0033746         A.Barrett     5         0.000000           NaN             NaN           0.000000   1.030000           Replacement   1.797379  FairlyPaid   -0.158054
