@@ -33,13 +33,25 @@ This score combines multiple performance metrics such as:
 
 
 2.**Performance Aggregation:**
-The goal of the aggregate score is to provide a single holistic measure of defensive line performance. Now the Final Agg score is affected by the weights of the performance metrics. For edge rushers, Pass Rush is more valuable, hence my weighting for an edge score is:
+The goal of the aggregate score is to provide a single holistic measure of defensive line performance. The Final Agg_score is affected by the weights of the performance metrics. For edge rushers, Pass Rush is more valuable, hence my weighting for an edge score is:
   6*["PR_per100"] + 3*["RunD_per100"]+ 3*["Turnover_score"] + 2*["Efficency_score"] -2*["penalty_score"]+ 4*["Situational_score"])
 While for interior linemen, RunD is more valuable: 
   3*["PR_per100"] + 7*["RunD_per100"]+ 2*["Turnover_score"] + 2*["Efficency_score"]-2*["penalty_score"]+ 4*["Situational_score"]
 Now the calculations for ex. of PR_per100 take into account the number of sacks, QB hits, and passes defended a player has, with applied weighting for each stat.
-These calculations are done accordingly for the other metrics using different stats and different weightings.
+These calculations are done accordingly for the other metrics using different stats and different weightings. 
 At the end of each season, a player receives a season score, and then finally scores from all 3 seasons are aggregated with recent years being valued more.
+
+##Weighting Assumptions
+
+It is important to note that the weighting system used in this model is subjective. The weights assigned to different performance metrics are intended to approximate how professional evaluators might prioritise certain aspects of defensive line play when assessing player value.
+
+For example, pass-rush production is weighted more heavily for EDGE defenders, while run defence is emphasised more strongly for interior defensive linemen. These weightings are designed to reflect typical positional responsibilities and how teams may value different forms of production. 
+
+However, these weights should not be interpreted as definitive or universally correct. Different teams, analysts, or evaluation frameworks may choose to prioritise metrics differently depending on scheme, role expectations, or philosophical preferences. For ex. A team may be looking for an interior player with a high PassRush impact regardless of their Run Defence metric.
+
+The purpose of this weighting system is therefore to provide a reasonable and transparent framework for comparing player production, rather than a perfectly objective measure of player value.
+I've applied further weighting to other stats such as tackles, passes defended, Tackles for Loss, forced fumbles, etc.
+
 
 3.**Situational Impact**
 Situational performance was analysed to evaluate how players perform in high-leverage downs.
