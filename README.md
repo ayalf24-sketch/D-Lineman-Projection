@@ -41,17 +41,17 @@ Now the calculations for ex. of PR_per100 take into account the number of sacks,
 These calculations are done accordingly for the other metrics using different stats and different weightings.
 At the end of each season, a player receives a season score, and then finally scores from all 3 seasons are aggregated with recent years being valued more.
 
-3.** Situational Impact**
+3.**Situational Impact**
 Situational performance was analysed to evaluate how players perform in high-leverage downs.
 These situations often determine whether a defence gets off the field, making them particularly valuable for pass rushers.
 Inside my Situation performance metric, not only do I calculate 3rd/4th down impact, but it also takes into account how many of a player's sacks are on 3rd and long. Getting sacks on 3rd and long is crucial; however, if most of your sacks come on obvious passing downs with time, then I don't find that to be a positive metric.
 
 4. **Contract Estimation**
 Players' APY estimation was based on 4 important factors:
-1. Your Tier class (based on final aggregate scoring)
-2. Your Role designation
-3. The approximate market midpoint APY of players in each tier
-4. Then their Performance Z-Score relative to their tier
+  1. Your Tier class (based on final aggregate scoring)
+  2. Your Role designation
+  3. The approximate market midpoint APY of players in each tier
+  4. Then their Performance Z-Score relative to their tier
 Based on those factors, we are able to calculate the estimated APY for each player, then assign OverPaid, UnderPaid, and FairlyPaid tags for each player based on whether their real contract was off by $5 million.
 
 5.) **Contract Analysis **
