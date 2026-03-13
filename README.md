@@ -122,7 +122,7 @@ Quadrants identify:
 • Replacement-level players  
 
 ![Edge Moneyball Analysis](Edge_MoneyBall_fig.png)
-![Interiors Moneyball Analysis](Interior_MoneyBall_Fig.png)
+![Interiors Moneyball Analysis](Interior_Moneyball_Fig.png)
 
 
 ## Contract Value Rankings
