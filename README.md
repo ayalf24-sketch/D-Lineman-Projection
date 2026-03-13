@@ -48,10 +48,10 @@ Inside my Situation performance metric, not only do I calculate 3rd/4th down imp
 
 4. **Contract Estimation**
 Players' APY estimation was based on 4 important factors:
-  1. Your Tier class (based on final aggregate scoring)
-  2. Your Role designation
-  3. The approximate market midpoint APY of players in each tier
-  4. Then their Performance Z-Score relative to their tier
+  a. Your Tier class (based on final aggregate scoring)
+  b. Your Role designation
+  c. The approximate market midpoint APY of players in each tier
+  d. Then their Performance Z-Score relative to their tier
 Based on those factors, we are able to calculate the estimated APY for each player, then assign OverPaid, UnderPaid, and FairlyPaid tags for each player based on whether their real contract was off by $5 million.
 
 5.) **Contract Analysis **
