@@ -66,7 +66,7 @@ Players' APY estimation was based on 4 important factors:
   d. Then their Performance Z-Score relative to their tier
 Based on those factors, we are able to calculate the estimated APY for each player, then assign OverPaid, UnderPaid, and FairlyPaid tags for each player based on whether their real contract was off by $5 million.
 
-5.) **Contract Analysis **
+5.) **Contract Analysis**
 When graphing my findings, I used different metrics to analyse the values of each player's contract.
 A.) Value Ratio = Estimated APY / Actual APY # Separate Graphs Including and Excluding Rookie and Min. Salary Contracts
 B.) Weighted Value Ratio = [(Estimated APY - Actual APY) / Sqrt(APY)] * (Final Agg Score / Avg Final Agg Score)
@@ -217,10 +217,15 @@ The following datasets were used from the 2022–2024 seasons:
 **Limitations**
 Several factors limit the precision of this contract valuation model:
 -Team scheme differences
+
 -Role-based responsibilities
+
 -Injury history and Age
+
 -Leadership and intangible contributions
+
 -Specific Contract timing and market inflation
+
 -The model should therefore be interpreted as a performance-based approximation of contract value, rather than an exact valuation.
 
 
