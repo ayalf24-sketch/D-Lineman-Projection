@@ -216,6 +216,7 @@ The following datasets were used from the 2022–2024 seasons:
 
 **Limitations**
 Several factors limit the precision of this contract valuation model:
+
 -Team scheme differences
 
 -Role-based responsibilities
